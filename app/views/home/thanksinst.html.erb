@@ -1,0 +1,226 @@
+<style media="screen">
+  body{
+/*     background: url('assets/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .collection-suites-box{
+    border: 10px solid rgb(159, 108, 56);
+    background: url('assets/cs-pattern.svg') black;
+    background-size: 110px;
+    box-shadow: 0px 0px 38px 25px rgba(25, 22, 22, 0.88);
+    /* height: 60%; */
+    width: 50%;
+    min-width: 40%;
+  }
+
+  .line-top{
+    position: relative;
+    top: 0px;
+    text-align: right;
+  }
+
+  .line-top a {
+    text-decoration: none;
+  }
+
+  .line-top a:hover {
+    font-weight: bold;
+  }
+
+  .line-logo{
+    width: 100%;
+    text-align: left;
+  }
+
+  .close{
+    position: relative;
+    right: 15px;
+    top: 15px;
+    text-decoration: none;
+
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    cursor: pointer;
+  }
+
+  .wrap-logo{
+    text-align: left;
+  }
+
+  .wrap-logo > #logo{
+    margin-left: 30px;
+    max-height: 120px;
+  }
+
+  .wrap-logo > #logo-text{
+    position: relative;
+    bottom: 28px;
+  }
+
+  .btn-become{
+    background: rgb(159, 108, 56);
+    background: -moz-radial-gradient(center, ellipse cover, rgb(159, 108, 56) 0%, rgb(159, 108, 56) 0%, rgb(159, 108, 56) 75%, rgba(145,140,42,1) 75%, rgba(145,140,42,1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(159, 108, 56) 0%, rgb(159, 108, 56) 0%, rgb(159, 108, 56) 75%, rgba(145,140,42,1) 75%, rgba(145,140,42,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgb(159, 108, 56) 0%, rgb(159, 108, 56) 0%, rgb(159, 108, 56) 75%, rgba(145,140,42,1) 75%, rgba(145,140,42,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgb(159, 108, 56) 0%, rgb(159, 108, 56) 0%, rgb(159, 108, 56) 75%, rgba(145,140,42,1) 75%, rgba(145,140,42,1) 100%);
+    background: radial-gradient(ellipse at center, rgb(159, 108, 56) 0%, rgb(159, 108, 56) 0%, rgb(159, 108, 56) 75%, rgba(145,140,42,1) 75%, rgba(145,140,42,1) 100%);
+    border: none;
+    color: black;
+    padding: 0.5% 1%;
+    cursor: pointer;
+  }
+
+  .line-footer > .btn-become:hover{
+    font-weight: 900;
+  }
+
+  @media (min-width: 934px) {
+    body{
+      background: url(assets/background2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .line-body > p{
+      text-align: left;
+      margin-left: 20%;
+    }
+
+    .line-body > p:first-child{
+      color: rgb(159, 108, 56);
+      font-size: 2.3em;
+      text-align: left;
+      width: 20rem;
+    }
+
+    .line-body > p:last-child{
+      color: #FFF;
+      font-size: 1em;
+      text-align: left;
+      width: 20rem;
+      letter-spacing: 0.1rem;
+      word-spacing: 0.1rem;
+    }
+
+    .line-body{
+      margin-top: 5%;
+      margin-bottom: 10%;
+    }
+
+    .line-footer{
+      text-align: left;
+      margin-left: 20%;
+      margin-bottom: 10%;
+    }
+  }
+
+  @media (max-width: 933px) {
+    body{
+      background: url(assets/background2.jpg);
+      background-size: contain;
+      background-position: 1% 100%;
+      background-repeat: no-repeat;
+      background-color: black;
+      font-size: calc(1.5vw);
+    }
+
+    .wrap-logo {
+      display: -webkit-flex;
+      -webkit-align-items: center;
+
+      display: flex;
+      align-items: center;
+    }
+
+    .wrap-logo > #logo {
+      margin-left: 10%;
+      max-width: 100px;
+      width: 20%;
+    }
+
+    .wrap-logo > #logo-text {
+      width: 60%;
+      max-width: 243px;
+      position: unset;
+      bottom: unset;
+    }
+
+    .line-body > p{
+      text-align: left;
+      margin-left: 20%;
+    }
+
+    .line-body > p:first-child{
+      color: rgb(159, 108, 56);
+      font-size: 2.3em;
+      text-align: left;
+      width: 20rem;
+      max-width: 70%;
+    }
+
+    .line-body > p:last-child{
+      color: #FFF;
+      font-size: 1em;
+      text-align: left;
+      width: 20rem;
+      max-width: 70%;
+      letter-spacing: 0.1rem;
+      word-spacing: 0.1rem;
+    }
+
+    @media (max-width: 767px) {
+
+      body{
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+      }
+
+      .collection-suites-box {
+        margin-top: 10%;
+        width: 90% !important;
+      }
+
+      .line-body > p{
+        margin-bottom: 20%;
+      }
+
+      .line-body > p:first-child{
+        font-size: 3.7em;
+      }
+
+      .line-body > p:last-child{
+        width: unset;
+        font-size: 2em;
+      }
+      .line-footer{
+        margin-bottom: 10%;
+      }
+    }
+  }
+
+</style>
+<div class="dummy-div-1"></div>
+<div class="collection-suites-box">
+  <div class="line-top">
+    <a href="/"><span class="close">X</span></a>
+  </div>
+  <div class="line-logo">
+    <div class="wrap-logo">
+      <%= image_tag "cs-logo.png", :id => 'logo'%>
+      <%= image_tag "cs-logo-text.png", :id => 'logo-text'%>
+    </div>
+  </div>
+  <div class="line-body">
+    <p style="font-family: 'Playfair+Display', 'Times New Roman', serif;">THANK YOU FOR YOUR INTEREST IN COLLECTION SUITES</p>
+    <p>Your information has been received. We will contact you shortly. If you have any questions please dial <br>+1 305.800.LUXE (5893)</p>
+  </div>
+  <div class="line-footer">
+    <button type="button" name="button" class="btn-become" onclick="location.href='/become.html';">Learn More</button>
+  </div>
+</div>

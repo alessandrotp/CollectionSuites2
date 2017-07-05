@@ -1,0 +1,311 @@
+<style media="screen">
+  body{
+    /*
+    background: url('assets/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    */
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 16px;
+  }
+
+/*
+ .collection-suites-box{
+    border: 10px solid rgb(159, 108, 56);
+    background: url('assets/cs-pattern.svg') black;
+    background-size: 110px;
+    box-shadow: 0px 0px 38px 25px rgba(25, 22, 22, 0.88);
+    height: 60%;
+    width: 50%;
+    min-width: 40%;
+  }
+*/
+
+  .line-top{
+    position: relative;
+    top: 0px;
+    text-align: right;
+  }
+
+  .line-top span a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .line-top span a:hover {
+    font-weight: bold;
+  }
+
+  .line-logo{
+    width: 100%;
+    text-align: left;
+  }
+
+  .close{
+    position: relative;
+    right: 15px;
+    top: 15px;
+
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    cursor: pointer;
+  }
+
+  .wrap-logo{
+    text-align: left;
+  }
+
+  .wrap-logo > #logo{
+    margin-left: 30px;
+    max-height: 110px;
+  }
+
+  .wrap-logo > #logo-text{
+    position: relative;
+    bottom: 28px;
+  }
+
+  .form-register > div > div > input{
+    margin-bottom: 10px;
+    border: 1px solid white;
+    background-color: #191718;
+    padding: 10px;
+    width: 100%;
+    color: white;
+  }
+
+  .line-body > p {
+    text-align: left;
+    margin: 0px 30px 10px 30px;
+    color: rgb(255,255,255);
+  }
+
+  .line-body > p > span{
+    color: rgb(159, 108, 56);
+  }
+
+  .wrapper-inputs{
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+  }
+
+  .wrapper-inputs > div{
+    width: 40%;
+  }
+
+
+  .line-footer{
+    text-align: right;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-align-items: flex-end;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+  }
+
+  .line-footer input[type="submit"] {
+    cursor: pointer;
+  }
+
+
+  .line-footer input[type="submit"]:hover {
+    font-weight: bold;
+  }
+
+
+  .line-footer > img {
+    height: 7px;
+    margin-bottom: 15px;
+  }
+
+  .line-footer > input {
+    background: none;
+    color: rgb(159, 108, 56);
+    border: none;
+    padding-right: 0px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  @media (min-width: 934px) {
+    body{
+      background: url(assets/background2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .line-body{
+      margin-bottom: 5%;
+      margin-top: 20%;
+    }
+
+    .wrapper-inputs{
+      display: -webkit-flex;
+      -webkit-justify-content: space-around;
+
+      display: flex;
+      justify-content: space-around;
+
+      width: 100%;
+    }
+
+    .form-register{
+      padding-top: 5%;
+    }
+
+    .form-register > div > div {
+      display: -webkit-flex;
+      -webkit-flex-direction: column;
+
+      display: flex;
+      flex-direction: column;
+    }
+
+    .line-footer{
+      margin-right: 30px;
+    }
+  }
+
+  @media (max-width: 933px) {
+    body{
+      background: url(assets/background2.jpg);
+      background-size: contain;
+      background-position: 1% 100%;
+      background-repeat: no-repeat;
+      background-color: black;
+    }
+
+    .wrap-logo {
+      display: -webkit-flex;
+      -webkit-align-items: center;
+
+      display: flex;
+      align-items: center;
+    }
+
+    .wrap-logo > #logo {
+      margin-left: 10%;
+      max-width: 100px;
+      width: 20%;
+    }
+
+    .wrap-logo > #logo-text {
+      width: 60%;
+      max-width: 243px;
+      position: unset;
+      bottom: unset;
+    }
+
+    .line-body > p{
+      text-align: left;
+      margin: 20% 10% 10% 10%;
+    }
+
+    .wrapper-inputs{
+      display: -webkit-flex;
+      -webkit-justify-content: center;
+      -webkit-align-items: center;
+      -webkit-flex-direction: column;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      width: 100%;
+    }
+
+    .form-register > div > div{
+      display: -webkit-flex;
+      -webkit-flex-direction: column;
+
+      display: flex;
+      flex-direction: column;
+      margin: 0px 10%;
+    }
+
+    .form-register > div > div > input{
+      margin-bottom: 10px;
+      border: 1px solid white;
+      background-color: #191718;
+      padding: 10px;
+      width: 100%;
+    }
+
+    .line-footer{
+      margin-right: 10%;
+    }
+
+    @media (max-width: 767px) {
+      body{
+        -webkit-justify-content: flex-start;
+      }
+
+      .collection-suites-box {
+        margin-top: 10%;
+        width: 90% !important;
+      }
+    }
+  }
+</style>
+
+
+<div class="dummy-div-1"></div>
+<div class="collection-suites-box">
+  <div class="line-top">
+    <span class="close"><a href="/index">X</a></span>
+  </div>
+  <div class="line-logo">
+    <div class="wrap-logo">
+      <%= image_tag "cs-logo.png", :id => 'logo'%>
+      <%= image_tag "cs-logo-text.png", :id => 'logo-text'%>
+    </div>
+  </div>
+  <div class="line-body">
+    <p>Become a <span>VIP Member of Collection Suites</span> by filling out the form below to receive your exclusive activated code</p>
+    <%= form_for :user, url: { action: "createuser" }, html: { class: "form-register" } do |user| %>
+      <div class="wrapper-inputs">
+        <div>
+          <%= user.text_field :name, placeholder: "FIRST NAME" %>
+          <%= user.text_field :last_name, placeholder: "LAST NAME" %>
+          <%= user.telephone_field :p1, placeholder: "PHONE" %>
+        </div>
+        <div>
+          <%= user.text_field :zip, placeholder: "ZIP CODE" %>
+          <%= user.email_field :email, placeholder: "EMAIL" %>
+        </div>
+      </div>
+      <div class="line-footer">
+        <%= image_tag "rectangulo.png" %>
+        <%= user.submit "submit"%>
+        <!-- <input type="submit" value="Submit"> -->
+      </div>
+    <% end %>
+    <!-- <form class="form-register" action="" method="post">
+      <div>
+        <input type="text" name="" value="" placeholder="FIRST NAME">
+        <input type="text" name="" value="" placeholder="LAST NAME">
+        <input type="text" name="" value="" placeholder="PHONE">
+      </div>
+      <div>
+        <input type="text" name="" value="" placeholder="ZIP CODE">
+        <input type="text" name="" value="" placeholder="EMAIL">
+      </div>
+    </form> -->
+  </div>
+</div>
